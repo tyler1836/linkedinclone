@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css'
+import Mainfeed from './components/Mainfeed';
+import Navbar from './components/Navbar';
+import Miniprofile from './components/Miniprofile';
+import Rightsidebar from './components/Rightsidebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* navbar search linkedin svg home myNetwork Jobs messaging notifications person/dropdown work/dropdown learning */}
+      < Navbar /> 
+      {/* left side bar  profile mini view recent searches sticky */}
+      < Miniprofile />
+      {/* start a post  photo video event write article*/}
+      {/* feed */}
+      < Mainfeed />
+      {/* linkedin news ad and footer sticky dropped at smaller views */}
+      < Rightsidebar />
     </div>
   );
 }
