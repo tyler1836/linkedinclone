@@ -1,4 +1,4 @@
-import './index.css'
+import './App.css'
 import Mainfeed from './components/Mainfeed';
 import Navbar from './components/Navbar';
 import Miniprofile from './components/Miniprofile';

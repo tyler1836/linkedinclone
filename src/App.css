@@ -1,1 +1,31 @@
-
+.navbar{
+    display: flex;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, .9);
+}
+.navbarSearch{
+    max-width: 40%;
+    border: 1px solid gray;
+}
+.noFlex {
+    display: flex;
+    align-items: center;
+}
+.noFlex > input{
+    flex: 1;
+    border: none;
+}
+.navSearch{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+.navIcons{
+    color: gray;
+    align-items: center;
+    
+}
